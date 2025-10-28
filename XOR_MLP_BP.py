@@ -28,7 +28,6 @@ def sigmoid_derivative(x):
     return x * (1 - x)
 
 for epoch in range(epochs):
-    
     s1 = np.dot(X, W1) + b1
     x1 = sigmoid(s1)
     s2 = np.dot(x1, W2) + b2
